@@ -1,0 +1,53 @@
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.icon {
+  position: relative;
+  display: inline-block;
+  width: 130px;
+  height: 100px;
+   /*overflow: hidden; */
+}
+
+.animation-block .icon.shuttle
+{
+  height: 114px !important;
+}
+
+.kab-card .icon.clear-shuttle 
+{
+  margin-top: 19px;
+}
+
+.kab-card .icon.clear-search
+{
+  height: 77px !important;
+}
+
+.icon__cnt {
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  fill: currentColor;
+  transform: translateX(0); Crisp fix for non-retina
+  -ms-transform: translate(.5px,-.3px); Crisp fix for IE 
+}
+
+.icon__spinner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

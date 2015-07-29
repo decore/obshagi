@@ -1,0 +1,38 @@
+<!-- start blocks/breadcrumbs: Вадим Корнейчук (sti4er2) -->
+<div class="breadcrumbs">
+  <div class="container flex-container">
+    <ul class="breadcrumb">
+      <li><a href="#">Главная</a></li>
+      <li><a href="#">Услуги</a></li>
+      <li><a href="#" class="active nolink">Услуга такая-то</a></li>
+    </ul>
+  </div>
+</div>
+<script type="application/ld+json">
+  {
+  	"@context": "http://schema.org",
+  	"@type": "BreadcrumbList",
+  	"itemListElement": [{
+  		"@type": "ListItem",
+  		"position": 1,
+  		"item": {
+  			"@id": "https://example.com/arts",
+  			"name": "Главная"
+  		}
+  	},{
+  		"@type": "ListItem",
+  		"position": 2,
+  		"item": {
+  			"@id": "https://example.com/arts/books",
+  			"name": "Услуги"
+  		}
+  	},{
+  		"@type": "ListItem",
+  		"position": 3,
+  		"item": {
+  			"@id": "https://example.com/arts/books/poetry",
+  			"name": "Услуга такая-то"
+  		}
+  	}]
+  }
+</script><!-- end blocks/breadcrumbs -->

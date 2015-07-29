@@ -1,0 +1,115 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("icon/flaticon.eot");
+	src: url("icon/flaticon.eot#iefix") format("embedded-opentype"),
+	url("icon/flaticon.woff") format("woff"),
+	url("icon/flaticon.ttf") format("truetype"),
+	url("icon/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}.flaticon-avatars:before {
+	content: "\e000";
+}
+.flaticon-b:before {
+	content: "\e001";
+}
+.flaticon-basket29:before {
+	content: "\e002";
+}
+.flaticon-bike15:before {
+	content: "\e003";
+}
+.flaticon-bird1:before {
+	content: "\e004";
+}
+.flaticon-building86:before {
+	content: "\e005";
+}
+.flaticon-building90:before {
+	content: "\e006";
+}
+.flaticon-call40:before {
+	content: "\e007";
+}
+.flaticon-clover9:before {
+	content: "\e008";
+}
+.flaticon-computer190:before {
+	content: "\e009";
+}
+.flaticon-edit42:before {
+	content: "\e00a";
+}
+.flaticon-facebook:before {
+	content: "\e00b";
+}
+.flaticon-finance-and-business4:before {
+	content: "\e00c";
+}
+.flaticon-gear42:before {
+	content: "\e00d";
+}
+.flaticon-home168:before {
+	content: "\e00e";
+}
+.flaticon-instagram:before {
+	content: "\e00f";
+}
+.flaticon-juice2:before {
+	content: "\e010";
+}
+.flaticon-mail3:before {
+	content: "\e011";
+}
+.flaticon-ok:before {
+	content: "\e012";
+}
+.flaticon-pen29:before {
+	content: "\e013";
+}
+.flaticon-placeholder30:before {
+	content: "\e014";
+}
+.flaticon-plate13:before {
+	content: "\e015";
+}
+.flaticon-profile11:before {
+	content: "\e016";
+}
+.flaticon-ruble:before {
+	content: "\e017";
+}
+.flaticon-tbilisi:before {
+	content: "\e018";
+}
+.flaticon-text70:before {
+	content: "\e019";
+}
+.flaticon-thumbs28:before {
+	content: "\e01a";
+}
+.flaticon-transport122:before {
+	content: "\e01b";
+}
+.flaticon-triangular45:before {
+	content: "\e01c";
+}
+.flaticon-users81:before {
+	content: "\e01d";
+}
+.flaticon-videos:before {
+	content: "\e01e";
+}
+.flaticon-window40:before {
+	content: "\e01f";
+}
+.flaticon-worker9:before {
+	content: "\e020";
+}
