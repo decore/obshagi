@@ -13,8 +13,6 @@ $(document).ready(function(){
 		if (!$.browser.mozilla) {
 			var scaleScreen = function(){
 				$('html').css('zoom', '1');
-				// $('html').css('overflow-x', 'hidden');
-				// $('html').css('max-width', '100vw');
 				htmlWidth = $('html').width();
 				if ((htmlWidth > virtualViewportWidthMax) && !$.browser.msie) {
 					var zoom = 1;
@@ -71,16 +69,16 @@ $(document).ready(function(){
 		});
 	};
 	// for phones and tablets: native viewport
-	if ($.browser.mobile) {
-		$('html').css('min-width', '100vw');
-		// for phones
-		if (htmlWidth <= virtualViewportWidthPhone) {
-			$('meta[name=viewport]').attr('content', 'width=' + virtualViewportWidthPhone);
-		// for tablets
-		} else {
-			$('meta[name=viewport]').attr('content', 'width=' + virtualViewportWidthDesktop);
-		};
-	};
+	// if ($.browser.mobile) {
+	// 	$('html').css('min-width', '100vw');
+	// 	// for phones
+	// 	if (htmlWidth <= virtualViewportWidthPhone) {
+	// 		$('meta[name=viewport]').attr('content', 'width=' + virtualViewportWidthPhone);
+	// 	// for tablets
+	// 	} else {
+	// 		$('meta[name=viewport]').attr('content', 'width=' + virtualViewportWidthDesktop);
+	// 	};
+	// };
 	// for ie: native viewport
 	// if ($.browser.msie) {
 	// 	$('head').append('<style>@-ms-viewport {width: ' + virtualViewportWidthDesktop + 'px}</style>');
