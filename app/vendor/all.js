@@ -9,11 +9,6 @@ $(document).ready(function(){
 		}
 	});
 
-	$('.fix').liFixar({
-		side: 'top',
-		position: 0
-	});
-
 	$('select').select2();
 
 	$('.datepicker').datepicker({
@@ -37,7 +32,7 @@ $(document).ready(function(){
 	outdatedBrowser({
 		bgColor: '#f25648',
 		color: '#ffffff',
-		lowerThan: 'transform',
+		lowerThan: 'IE9',
 		languagePath: '/app/vendor/outdatedbrowser/lang/ru.html'
 	})
 
@@ -109,5 +104,16 @@ $(document).ready(function(){
 	};
 	if ($.browser.mozilla) {
 		$('body').addClass('ff');
+	};
+	if ( $('html').hasClass('no-placeholder') ) {
+		$('head').append('<script src="/app/vendor/jquery.placeholder.min.js" type="text/javascript"></script>');
+	};
+	if ( $('html').hasClass('no-flexbox') && $('html').hasClass('no-flexboxlegacy') ) {
+		$('head').append('<link href="/app/no-flexbox.css" rel="stylesheet">');
+	} else {
+		$('.fix').liFixar({
+			side: 'top',
+			position: 0
+		});
 	};
 });

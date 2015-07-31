@@ -11,7 +11,7 @@ $(document).ready(function(){
 			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
 
-		var map = new google.maps.Map(document.getElementById("map"),mapProp);
+		var map = new google.maps.Map(document.getElementById("card-map"),mapProp);
 
 		var marker = new google.maps.Marker({
 			position: marker1,

@@ -1,0 +1,787 @@
+.header {
+  position: static;
+}
+.header .logo {
+  display: table-cell;
+  height: 100%;
+  vertical-align: top;
+}
+.header .nav {
+  display: table-cell;
+  height: 100%;
+  padding: 13px 0;
+  vertical-align: top;
+}
+.header .telnumber {
+  display: table-cell;
+  height: 100%;
+  vertical-align: top;
+}
+.footer .footer-wrap {
+  display: table;
+}
+.footer .footer-wrap .copyright {
+  height: 100%;
+  display: table-cell;
+  width: 125px;
+}
+.footer .footer-wrap .logo-mini {
+  display: table-cell;
+  height: 100%;
+  width: 30px;
+}
+.footer .footer-wrap .text-after {
+  display: table-cell;
+  height: 100%;
+}
+.footer .footer-wrap .tel {
+  display: table-cell;
+  height: 100%;
+  float: right;
+}
+.work-cabinet .work-cabinet-wrap {
+  display: table !important;
+  width: 100%;
+  heigth: 36px;
+}
+.work-cabinet .work-cabinet-wrap .work-cabinet-left {
+  display: table-cell !important;
+  min-width: 600px;
+  width: 600px;
+  vertical-align: top;
+}
+.work-cabinet .work-cabinet-wrap .work-cabinet-left p {
+  float: left;
+  margin-right: 20px;
+  margin-top: 1px;
+}
+.work-cabinet .work-cabinet-wrap .work-cabinet-left a {
+  float: left;
+  margin-top: 3px;
+}
+.work-cabinet .work-cabinet-wrap .work-cabinet-btn {
+  display: table-cell !important;
+  text-align: right;
+  vertical-align: top;
+}
+.work-cabinet .work-cabinet-wrap .work-cabinet-btn .button {
+  height: 30px;
+  display: inline-block !important;
+  margin-top: 3px;
+}
+.content-work .content-wrap {
+  display: table;
+}
+.content-work .content-wrap .work-sidebar {
+  display: table-cell;
+  vertical-align: top;
+  min-width: 230px;
+  padding-right: 20px;
+  padding-left: 5px;
+  height: 100%;
+}
+.content-work .content-wrap .work-sidebar .work-sidebar-nav {
+  background: #fff;
+}
+.content-work .content-wrap .work-sidebar .work-sidebar-nav a {
+  display: table;
+}
+.content-work .content-wrap .work-sidebar .work-sidebar-nav a .wrap-img {
+  display: table-cell;
+  max-width: 24px;
+  vertical-align: middle;
+}
+.content-work .content-wrap .work-sidebar .work-sidebar-nav a span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.content-work .content-wrap .work-vacancies-list {
+  vertical-align: top;
+  padding-left: 10px;
+}
+.content-work .content-wrap .work-vacancies-list .vacancies-item {
+  display: table;
+}
+.content-work .content-wrap .work-vacancies-list .vacancies-item .vacancies-item-img {
+  display: table-cell;
+  vertical-align: top;
+  width: 128;
+  padding-right: 18px;
+}
+.content-work .content-wrap .work-vacancies-list .vacancies-item .vacancies-item-text {
+  display: table-cell;
+  vertical-align: top;
+  position: relative;
+}
+.content-work .content-wrap .work-vacancies-list .vacancies-item .vacancies-item-text .vacancies-button a {
+  position: absolute;
+  height: 37px;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+.work-vacancies-item,
+.work-vacancies-form {
+  margin-left: 10px;
+  width: 100%;
+}
+.work-footer-wrap {
+  display: table;
+}
+.work-footer-wrap .work-footer-logo {
+  display: table-cell;
+}
+.work-footer-wrap .work-footer-tel {
+  display: table-cell;
+  text-align: right;
+}
+.card .wrap {
+  display: table;
+}
+.card .wrap .img {
+  float: left;
+}
+.card .wrap .text {
+  padding-left: 185px;
+}
+.card .wrap .text .top-text {
+  width: 370px;
+}
+.card .wrap .text .flaticon-tbilisi {
+  max-width: 22px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.card .wrap .text .flaticon-tbilisi:before {
+  max-width: 22px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.card.map-card .wrap {
+  display: table;
+}
+.card.map-card .wrap .img {
+  display: table-cell;
+}
+.card.map-card .wrap .text {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 30px;
+}
+.animation-block .wrapper-container {
+  width: 100%;
+  display: table;
+}
+.animation-block .wrapper-container .rows {
+  display: table-row;
+}
+.animation-block .wrapper-container .rows .withtxt {
+  display: table-cell;
+  align-text: center;
+  vertical-align: top;
+}
+.animation-block .wrapper-container .rows .withtxt .animation-img {
+  align-text: center;
+  margin: 0 auto;
+  display: block;
+  vertical-align: top;
+}
+.animation-block .wrapper-container .rows .withtxt .animation-img>a {
+  margin: 0;
+  padding: 0;
+}
+.animation-block .wrapper-container .rows .withtxt .animation-img img {
+  display: block;
+  margin: 0 auto;
+  align-text: center;
+}
+.animation-block .wrapper-container .rows .withtxt a p {
+  margin-bottom: 10px;
+  padding: 0;
+  vertical-align: top;
+}
+.flex-container {
+  display: table;
+  vertical-align: top;
+  width: 100%;
+}
+.flex-container .wrapper {
+  display: table-cell;
+  vertical-align: top;
+}
+.flex-container .poster-out {
+  display: table-cell;
+  vertical-align: top;
+}
+.flex-container .left-side {
+  display: table-cell;
+  vertical-align: top;
+}
+.flex-container .right-side {
+  display: table-cell;
+  vertical-align: top;
+}
+.flex-container .wrapp {
+  display: table-cell !important;
+  vertical-align: top;
+}
+.slider {
+  margin-top: 0px;
+}
+.slider .slider-block .text-slider {
+  display: table;
+  width: 100%;
+}
+.slider .slider-block .text-slider .wrap {
+  margin: auto;
+}
+.poster-out {
+  padding-left: 21px;
+}
+.poster-in .wrap {
+  padding: 3px 0;
+}
+.slider-obj {
+  padding: 5px 0;
+}
+.slider-obj .slider-block-obj {
+  width: 600px;
+  margin: auto;
+}
+.slider-obj .slider-block-obj .fotorama {
+  width: 600px;
+}
+.slider-obj .text-slider {
+  height: 50px;
+}
+.slider-obj .text-slider .wrap {
+  display: table;
+  width: 100%;
+}
+.slider-obj .text-slider .wrap .left-side {
+  display: table-cell;
+  vertical-align: middle;
+}
+.slider-obj .text-slider .wrap .left-side h1 {
+  display: table-cell;
+  padding-left: 20px;
+}
+.slider-obj .text-slider .wrap .left-side .star {
+  display: table-cell;
+  margin-right: 50px;
+}
+.slider-obj .text-slider .wrap .sticker {
+  display: table-cell;
+  width: 115px;
+}
+.ms-address-obj .address-price {
+  display: table;
+}
+.ms-address-obj .address-price p {
+  display: table-cell;
+}
+.ms-address-obj .address-price .stock-price {
+  display: table-cell;
+  margin-left: 20px;
+}
+.type .wrapper {
+  display: table;
+  width: 100%;
+}
+.type .wrapper:last-child {
+  padding-bottom: 15px;
+}
+.type .wrapper a {
+  display: table-cell;
+}
+.type .wrapper a img {
+  width: 80%;
+}
+.type .wrapper .text {
+  display: table-cell;
+}
+.num-of-seats .wrapper {
+  width: 900px;
+}
+.num-of-seats .wrapper .border {
+  padding: 10px 0;
+}
+.ms-convenience .flex-container .wrap {
+  width: 100%;
+}
+.ms-convenience .flex-container .wrap ul {
+  display: table;
+}
+.ms-convenience .flex-container .wrap ul li {
+  display: table-cell;
+}
+.ms-convenience .flex-container .wrap ul li a {
+  margin: 4px;
+}
+.above-header .container .above-box {
+  display: table;
+  max-width: 100%;
+}
+.above-header .container .above-box .right-side,
+.above-header .container .above-box .left-side {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+}
+.above-header .container .above-box .right-side .balance,
+.above-header .container .above-box .left-side .balance {
+  position: absolute;
+  top: 10px;
+  right: 170px;
+  display: table;
+}
+.above-header .container .above-box .right-side .balance i,
+.above-header .container .above-box .left-side .balance i,
+.above-header .container .above-box .right-side .balance p,
+.above-header .container .above-box .left-side .balance p,
+.above-header .container .above-box .right-side .balance span,
+.above-header .container .above-box .left-side .balance span {
+  display: table-cell;
+}
+.above-header .container .above-box .right-side .balance p,
+.above-header .container .above-box .left-side .balance p {
+  padding-left: 15px;
+}
+.above-header .container .above-box .right-side .personal,
+.above-header .container .above-box .left-side .personal {
+  float: right;
+  display: table;
+}
+.ob-header {
+  background: url("/img/svg/gradient-ie.svg") no-repeat;
+  background-size: 100% 76px;
+}
+.ob-header .box {
+  display: table;
+}
+.ob-header .box .left-side {
+  display: table-cell;
+  vertical-align: middle;
+  width: 187px;
+}
+.ob-header .box .left-side a img {
+  position: relative;
+  bottom: 8px;
+}
+.ob-header .box .right-side {
+  display: table;
+  height: inherit;
+  position: relative;
+}
+.ob-header .box .right-side ul {
+  display: table-cell;
+  vertical-align: middle;
+}
+.ob-header .box .right-side ul .dropdown .dropdown-menu li {
+  display: block;
+}
+.ob-header .box .right-side ul li {
+  display: table-cell;
+}
+.ob-header .box .right-side .phonenumber {
+  position: absolute;
+  float: left;
+  top: 20px;
+  padding-left: 25px;
+}
+.ob-header .box .right-side .phonenumber .call {
+  display: table;
+}
+.sticker {
+  padding-top: 5px;
+  text-align: center;
+}
+.insets .inset {
+  display: table;
+}
+.insets .inset li {
+  display: table-cell;
+}
+.insets .tab-content {
+  display: table;
+}
+.insets .tab-content .tab-pane .flex {
+  display: table;
+}
+.insets .tab-content .tab-pane .flex .input-group {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 23px;
+}
+.insets .tab-content .tab-pane .flex .input-group:first-child {
+  padding-left: 0;
+}
+.insets .tab-content .tab-pane .flex .input-group:last-child {
+  padding-right: 0;
+}
+.insets .tab-content .tab-pane .steps .step,
+.insets .tab-content .tab-pane .steps .dark,
+.insets .tab-content .tab-pane .steps .light {
+  display: table-cell;
+  vertical-align: top;
+}
+.insets .tab-content .tab-pane .steps .step a p,
+.insets .tab-content .tab-pane .steps .dark a p,
+.insets .tab-content .tab-pane .steps .light a p {
+  display: table-cell;
+  width: 100%;
+  margin: auto;
+}
+.insets .tab-content .tab-pane .steps .step a .img-wrap,
+.insets .tab-content .tab-pane .steps .dark a .img-wrap,
+.insets .tab-content .tab-pane .steps .light a .img-wrap {
+  display: table;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.insets .tab-content .tab-pane .steps .step a .img-wrap .icon,
+.insets .tab-content .tab-pane .steps .dark a .img-wrap .icon,
+.insets .tab-content .tab-pane .steps .light a .img-wrap .icon {
+  display: table-cell;
+  vertical-align: bottom;
+}
+.slider-offer .wrap {
+  display: table;
+}
+.slider-offer .wrap .special-offer {
+  display: table-cell;
+  vertical-align: top;
+  padding: 16px;
+  padding-right: 0;
+  position: relative;
+}
+.slider-offer .wrap .special-offer .bottom {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 16px;
+}
+.slider-offer .wrap .special-offer .bottom .first,
+.slider-offer .wrap .special-offer .bottom .second {
+  display: table;
+  margin-bottom: 10px;
+}
+.slider-offer .wrap .special-offer .bottom .first i,
+.slider-offer .wrap .special-offer .bottom .second i,
+.slider-offer .wrap .special-offer .bottom .first p,
+.slider-offer .wrap .special-offer .bottom .second p {
+  display: table-cell;
+  vertical-align: middle;
+}
+.slider-offer .wrap .special-offer .bottom .first p,
+.slider-offer .wrap .special-offer .bottom .second p {
+  padding-left: 10px;
+}
+.slider-offer .wrap .fotorama {
+  display: table;
+}
+.slider-offer .wrap .fotorama .fotorama__wrap {
+  display: table-cell;
+  margin: auto;
+}
+.mini-form .wrap {
+  display: table;
+  width: 100%;
+}
+.mini-form .wrap .input-group {
+  display: table-cell;
+  vertical-align: middle;
+}
+.mini-form .wrap .input-group .select2-selection__rendered {
+  padding-top: 12px;
+}
+.pagination-block .wrapper {
+  display: table;
+}
+.pagination-block .wrapper nav {
+  display: table-cell;
+  vertical-align: top;
+}
+.pagination-block .wrapper .pag2 {
+  vertical-align: middle;
+  padding-bottom: 10px;
+}
+.pagination-block .wrapper .pag2 .wrap {
+  display: table;
+  margin-left: 50px;
+}
+.pagination-block .wrapper .pag2 .wrap p,
+.pagination-block .wrapper .pag2 .wrap ul {
+  display: table-cell;
+  vertical-align: middle;
+}
+.pagination-block .wrapper .pag2 .object-txt,
+.pagination-block .wrapper .pag2 .pagination-select {
+  display: table-cell;
+  vertical-align: middle;
+}
+.pagination-block .wrapper .pag2 .object-txt .select2,
+.pagination-block .wrapper .pag2 .pagination-select .select2 {
+  position: relative;
+  top: 5px;
+  left: 0;
+  display: table;
+}
+.pagination-block .wrapper .pag2 .object-txt .select2 .select2-selection__rendered,
+.pagination-block .wrapper .pag2 .pagination-select .select2 .select2-selection__rendered {
+  display: table-cell;
+  vertical-align: middle;
+}
+.pagination-block .wrapper .pag2 .object-txt {
+  padding-right: 15px;
+  padding-left: 100px;
+}
+.ob-footer .wrap {
+  display: table;
+  padding-top: 30px;
+}
+.ob-footer .wrap .search,
+.ob-footer .wrap .social {
+  display: table-cell;
+}
+.ob-footer .wrap .search .navigation,
+.ob-footer .wrap .social .navigation {
+  margin-top: 20px;
+  display: table;
+}
+.ob-footer .wrap .search .navigation .left,
+.ob-footer .wrap .social .navigation .left,
+.ob-footer .wrap .search .navigation .right,
+.ob-footer .wrap .social .navigation .right {
+  display: table-cell;
+  vertical-align: bottom;
+}
+.ob-footer .wrap .social {
+  text-align: right;
+  position: relative;
+}
+.ob-footer .wrap .social ul {
+  display: table;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.ob-footer .wrap .social ul li {
+  display: table-cell;
+  padding: 3px 7px;
+  margin-left: 10px;
+}
+.ob-footer .wrap .social .top {
+  position: relative;
+}
+.ob-footer .wrap .social .top .inline {
+  display: table;
+  width: 100%;
+}
+.ob-footer .wrap .social .top .inline .style,
+.ob-footer .wrap .social .top .inline .miniwrap {
+  display: table-cell;
+}
+.ob-footer .wrap .social .top .inline .style p,
+.ob-footer .wrap .social .top .inline .miniwrap p,
+.ob-footer .wrap .social .top .inline .style a,
+.ob-footer .wrap .social .top .inline .miniwrap a {
+  display: table-cell;
+}
+.ob-footer .wrap .social .top .inline .miniwrap {
+  text-align: right;
+  padding-left: 50px;
+  width: 50%;
+}
+.ob-footer .wrap .social .top .none {
+  position: absolute;
+  left: 140px;
+}
+.offer .cards .href .wrap {
+  display: table;
+}
+.offer .cards .href .wrap .offer-icon,
+.offer .cards .href .wrap .color {
+  display: table-cell;
+}
+.personal .flex {
+  display: table;
+  min-height: 60px;
+}
+.personal .flex p,
+.personal .flex .wrapper-link {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.personal .flex p a,
+.personal .flex .wrapper-link a,
+.personal .flex p .dropdown,
+.personal .flex .wrapper-link .dropdown {
+  display: table-cell;
+  padding: 0 10px;
+}
+.personal .flex p {
+  width: 220px;
+}
+.balance-account .wrap {
+  display: table;
+  vertical-align: middle;
+}
+.balance-account .wrap .balance,
+.balance-account .wrap .attracted,
+.balance-account .wrap button {
+  display: table-cell;
+}
+.balance-account .wrap .balance {
+  padding-right: 110px;
+  vertical-align: middle;
+}
+.balance-account .wrap .balance .fa-rub,
+.balance-account .wrap .balance p,
+.balance-account .wrap .balance span {
+  display: table-cell;
+}
+.balance-account .wrap .attracted {
+  padding-right: 110px;
+}
+.out-txt .kab-card .box {
+  display: table;
+  width: 100%;
+}
+.out-txt .kab-card .box a {
+  display: table;
+  position: relative;
+}
+.out-txt .kab-card .box a .img-box,
+.out-txt .kab-card .box a .txt {
+  display: table-cell;
+}
+.out-txt .kab-card .box a .img-box {
+  text-align: center;
+}
+.out-txt .kab-card .box a .img-box .icon {
+  width: 100%;
+}
+.out-txt .kab-card .box a .txt {
+  width: 420px;
+  vertical-align: middle;
+}
+.out-txt .kab-card .box a .mini-box {
+  position: absolute;
+  top: 30%;
+  right: 0;
+}
+.out-txt .kab-card .box .txt {
+  vertical-align: middle;
+  display: table-cell;
+  width: 419px;
+}
+.out-txt .kab-card .box .img-box {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+.out-txt .kab-card .box .img-box .icon {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+.out-txt .kab-card .box .mini-box {
+  vertical-align: middle;
+  display: table-cell;
+}
+.card-with-describe .kab-card {
+  display: table;
+}
+.card-with-describe .kab-card .box {
+  display: table;
+}
+.card-with-describe .kab-card .box .img-box {
+  display: table-cell;
+}
+.card-with-describe .kab-card .box .txt {
+  float: left;
+}
+.card-with-describe .kab-card .price {
+  display: table;
+  width: 100%;
+}
+.card-with-describe .kab-card .price p {
+  display: table-cell;
+  vertical-align: middle;
+}
+.card-with-describe .kab-card .price button {
+  display: block;
+  float: right;
+}
+.alerts .wrapper .alert {
+  width: 764px;
+}
+.stickers {
+  text-align: right;
+}
+.stocks {
+  padding-top: 8px;
+}
+.filter {
+  display: table;
+}
+.filter .left,
+.filter .right {
+  display: table-cell;
+  vertical-align: middle;
+}
+.filter .left {
+  width: 232px;
+}
+.filter .right form {
+  display: table-cell;
+  vertical-align: middle;
+}
+.filter .right form .in-one {
+  display: table-cell;
+  padding-right: 10px;
+}
+.filter .right .inset {
+  display: table-cell;
+}
+.filter .right .inset p,
+.filter .right .inset .btn-group {
+  display: table-cell;
+  vertical-align: middle;
+}
+.filter .right .inset p {
+  padding-right: 5px;
+}
+.work-header {
+  background: url("/img/svg/gradient-work-ie.svg") no-repeat;
+  background-size: 100% 75px;
+}
+.work-header .work-header-wrap {
+  display: table;
+}
+.work-header .work-header-wrap .work-header-logo,
+.work-header .work-header-wrap .work-header-left {
+  display: table-cell;
+}
+.work-header .work-header-wrap .work-header-logo a {
+  width: 200px;
+}
+.work-header .work-header-wrap .work-header-left {
+  vertical-align: middle;
+}
+.work-header .work-header-wrap .work-header-left .header-title,
+.work-header .work-header-wrap .work-header-left form,
+.work-header .work-header-wrap .work-header-left .telnumber {
+  display: table-cell;
+  padding: 0 10px;
+}
+.ie9 {
+  display: table-cell;
+}
+.ie9 .box-wrap .alert .all-height,
+.ie9 .box-wrap .alert .together {
+  display: table-cell;
+}

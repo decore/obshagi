@@ -51,7 +51,7 @@
   animation-name: bounce;
   -webkit-transform-origin: center bottom;
   -ms-transform-origin: center bottom;
-  transform-origin: center bottom;
+      transform-origin: center bottom;
 }
 @-webkit-keyframes flash {
   0%, 50%, 100% {
@@ -160,7 +160,7 @@
 .swing {
   -webkit-transform-origin: top center;
   -ms-transform-origin: top center;
-  transform-origin: top center;
+      transform-origin: top center;
   -webkit-animation-name: swing;
   animation-name: swing;
 }
@@ -267,7 +267,7 @@
   animation-name: jello;
   -webkit-transform-origin: center;
   -ms-transform-origin: center;
-  transform-origin: center;
+      transform-origin: center;
 }
 @-webkit-keyframes bounceIn {
   0%, 20%, 40%, 60%, 80%, 100% {
