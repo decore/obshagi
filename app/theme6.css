@@ -2587,15 +2587,17 @@ a:link {
 }
 .out-txt .kab-card .box .wrap-card {
   min-height: 120px;
+}
+.out-txt .kab-card .box a,
+.out-txt .kab-card .box .wrap-card {
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-}
-.out-txt .kab-card .box a {
   color: #fff;
 }
-.out-txt .kab-card .box a .img-box {
+.out-txt .kab-card .box a .img-box,
+.out-txt .kab-card .box .wrap-card .img-box {
   width: 140px;
   min-height: 120px;
   display: -webkit-box;
@@ -2611,43 +2613,55 @@ a:link {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.out-txt .kab-card .box a .img-box .clear-home {
+.out-txt .kab-card .box a .img-box .clear-home,
+.out-txt .kab-card .box .wrap-card .img-box .clear-home {
   width: 83px;
   height: 99px;
 }
-.out-txt .kab-card .box a .img-box .clear-advert-s {
+.out-txt .kab-card .box a .img-box .clear-advert-s,
+.out-txt .kab-card .box .wrap-card .img-box .clear-advert-s {
   witdth: 101px;
   height: 69px;
 }
-.out-txt .kab-card .box a .txt {
+.out-txt .kab-card .box a .txt,
+.out-txt .kab-card .box .wrap-card .txt {
   -webkit-box-flex: 1;
   -webkit-flex: 1 0 auto;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
   max-width: 419px;
+  margin: auto;
 }
-.out-txt .kab-card .box a .txt p {
+.out-txt .kab-card .box a .txt p,
+.out-txt .kab-card .box .wrap-card .txt p {
   font: normal 14px GothamPro;
   max-width: 380px;
 }
 @media (max-width: 767px) {
-  .out-txt .kab-card .box a .txt p {
+  .out-txt .kab-card .box a .txt p,
+  .out-txt .kab-card .box .wrap-card .txt p {
     font-size: 15px;
   }
 }
-.out-txt .kab-card .box a .txt .bigger {
+.out-txt .kab-card .box a .txt .bigger,
+.out-txt .kab-card .box .wrap-card .txt .bigger {
   font-size: 23px;
   margin-bottom: 0;
 }
-.out-txt .kab-card .box a .txt .bigger-href {
+.out-txt .kab-card .box a .txt .bigger-href,
+.out-txt .kab-card .box .wrap-card .txt .bigger-href {
   font-size: 23px;
 }
-.out-txt .kab-card .box a .mini-box {
+.out-txt .kab-card .box a .mini-box,
+.out-txt .kab-card .box .wrap-card .mini-box {
+  height: 100%;
   border: 1px solid #fff;
   padding: 7px 19px 7px 14px;
+  margin: auto;
   margin-right: 22px;
 }
-.out-txt .kab-card .box a .mini-box p {
+.out-txt .kab-card .box a .mini-box p,
+.out-txt .kab-card .box .wrap-card .mini-box p {
   margin-bottom: 0;
 }
 .out-txt .kab-card .box.ahref {

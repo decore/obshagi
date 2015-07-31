@@ -649,6 +649,7 @@
 .out-txt .kab-card .box {
   display: table;
   width: 100%;
+  position: relative;
 }
 .out-txt .kab-card .box a {
   display: table;
@@ -669,6 +670,7 @@
   vertical-align: middle;
 }
 .out-txt .kab-card .box a .mini-box {
+  height: 50px;
   position: absolute;
   top: 30%;
   right: 0;
@@ -689,8 +691,10 @@
   width: 100%;
 }
 .out-txt .kab-card .box .mini-box {
-  vertical-align: middle;
-  display: table-cell;
+  height: 50px !important;
+  position: absolute;
+  top: 30%;
+  right: 0;
 }
 .card-with-describe .kab-card {
   display: table;
