@@ -1092,6 +1092,11 @@ a:link {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media (max-width: 767px) {
+  .header .header-wrap {
+    padding: 0 17px;
+  }
+}
 .header .header-wrap .logo {
   padding-top: 15px;
 }
@@ -1132,23 +1137,15 @@ a:link {
       -ms-flex-align: center;
           align-items: center;
 }
-@media (max-width: 767px) {
-  .header .header-wrap .navbar-nav {
-    letter-spacing: 0;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-    width: 45%;
-    padding-top: 6px;
-    padding-bottom: 9px;
-  }
-}
 .header .header-wrap .navbar-nav li {
   white-space: nowrap;
 }
 @media (max-width: 767px) {
   .header .header-wrap .navbar-nav li {
-    width: 49%;
+    margin: 0 10px;
+  }
+  .header .header-wrap .navbar-nav li:last-child {
+    margin: 0;
   }
 }
 .header .header-wrap .navbar-nav li a {
@@ -1178,7 +1175,7 @@ a:link {
 }
 @media (max-width: 767px) {
   .header .header-wrap .telnumber {
-    margin-right: 5px;
+    display: none;
   }
 }
 .header .header-wrap .telnumber:hover i.fa.fa-phone:before {
@@ -1937,6 +1934,7 @@ a:link {
 .ob-header {
   background: -webkit-linear-gradient(0deg, #ff7014 50%, #0084c8 50%);
   background: linear-gradient(90deg, #ff7014 50%, #0084c8 50%);
+  width: 100% !important;
 }
 @media (max-width: 767px) {
   .ob-header .container {

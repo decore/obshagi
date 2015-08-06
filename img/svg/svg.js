@@ -35,6 +35,11 @@
 
     if ($.browser.msie || $.browser.mozilla || $('body').hasClass('no-svg')) {
       var icon = "<img src='/img/svg/svg/"+name+".svg'/>";
+      // var icon;
+      // $.get('/img/svg/svg/"+name+".svg', function(data) {
+      //   icon = new XMLSerializer().serializeToString(data.documentElement);
+      //   document.querySelector("body").insertAdjacentHTML("afterbegin", SVG);
+      // });
     } else {
       var icon =  "<svg class='icon__cnt'>"+
               "<use xlink:href='#"+ name +"' />"+
